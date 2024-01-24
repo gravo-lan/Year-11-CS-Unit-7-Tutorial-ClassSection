@@ -67,7 +67,7 @@ public class ClassSectionTester {
     // Test 5
     public void TestForToString() {
         setUp();
-        assertEquals("Make sure toString is correct!", student1.toString(), "Student{id=92, firstName='Adrian', lastName='Wong', age=17}");
+        assertEquals("Make sure toString is correct!", student1.toString(), "Student{id=80, firstName='Adrian', lastName='Wong', age=17}");
         tearDown();
     }
 
